@@ -1,0 +1,228 @@
+ 
+   
+  MALAYSIAN INSTITUTE OF INFORMATION TECHNOLOGY 
+  UNIVERSITI KUALA LUMPUR 
+   
+  BACHELOR OF INFORMATION TECHNOLOGY (HONS) IN COMPUTER 
+SYSTEM SECURITY 
+   
+   
+   
+   
+   
+  PREPARED BY: 
+   
+  NAME  : Kashvini S Mohan 
+  ID. NUMBER : 52215223056 
+   
+ 
+ 
+For Office Use Only 
+ 
+1.  Evaluator’s Comment: 
+ 
+  Accept  
+  Reject  
+2.  Comments/ Remarks 
+ 
+ 
+ 
+3.  Checked & Verified by:  
+ 
+........................................ 
+Name: 
+Designation: 
+Date: 
+ 
+Approved/Not Approved by:  
+ 
+........................................ 
+Name: 
+Designation: 
+Date: 
+ 
+FINAL YEAR PROJECT (FYP) PROPOSAL 
+  TITLE: USBGuard Pro: Smart USB Intrusion 
+Prevention System 
+ 
+DETAILS OF THE STUDENT 
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+Name    
+Kashvini S Mohan 
+ID. Number   
+Semester    
+52215223056 
+7th Semester 
+Current CGPA   
+Handphone Number   
+3.46 
++601114351594 
+Email Address   kashvinismohan@gmail.com 
+Potential Supervisor  
+Dr Delina Beh Mei Yin
+22 Nov 2025
+Signature  
+IPB49804 FINAL YEAR PROJECT 1  
+1 
+   UNIVERSITI KUALA LUMPUR                                    FYP PROPOSAL 
+ 
+ 
+IPB49804 FINAL YEAR PROJECT 1  2 
+ 
+ 
+ 
+ 
+Table of Contents 
+ 
+Page No. 
+1. Background of the Study ................................................................................................ 3 
+2. Problem Statement ......................................................................................................... 3 
+3. Objective ........................................................................................................................ 4 
+4. Scope ............................................................................................................................. 4 
+5. Significant of the Project ................................................................................................. 5 
+6. Literature Review ........................................................................................................... 5 
+7. Methodology ................................................................................................................... 6 
+Conclusion ............................................................................................................................ 6 
+References ............................................................................................................................ 7 
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+1. Background of the Study 
+In recent years, the use of Universal Serial Bus (USB) devices has become 
+widespread due to their portability and convenience. However, this convenience 
+also introduces significant cybersecurity risks. Malicious actors exploit USB 
+devices to deliver malware, launch keylogging attacks, and even take control of 
+computer systems using techniques such as BadUSB and HID (Human 
+Interface Device) injection. Many existing antivirus programs only scan the file 
+content within a USB drive but fail to detect unusual device behavior. 
+This project, titled USBGuard Pro: Smart USB Intrusion Prevention System, 
+aims to develop a lightweight, intelligent software that monitors USB device 
+activities and detects suspicious behavior patterns in real time. By identifying 
+and preventing unauthorized USB actions, this system enhances endpoint 
+security and provides users with better protection against physical intrusion 
+threats. 
+2.  Problem Statement 
+USB devices are one of the most common vectors for cyberattacks because 
+they can bypass traditional network defenses. Attackers can easily disguise a 
+USB device as a keyboard or network adapter, enabling data theft, malware 
+infection, or remote system access. Existing security tools mainly focus on 
+scanning files stored on the USB, leaving behavioral threats undetected. 
+Organizations and individual users are increasingly vulnerable to such threats 
+due to the absence of an intelligent mechanism that monitors USB behavior at 
+the system level. Therefore, there is a need for an automated intrusion 
+prevention system that can detect, alert, and block abnormal USB behavior in 
+real time. 
+IPB49804 FINAL YEAR PROJECT 1  
+3 
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+3. Objective 
+• To study USB-based attack methods and existing countermeasures. 
+• To develop a lightweight USB intrusion prevention system that detects and 
+blocks unauthorized USB behavior. 
+• To test the system functionality and robustness of the proposed intrusion 
+detection system. 
+4. Scope 
+This project focuses on monitoring USB connections and detecting malicious 
+behavior patterns on personal computers or laptops. It will identify unauthorized 
+USB devices, HID-based attacks, and data exfiltration attempts. 
+Target Users: 
+• IT administrators and general computer users. 
+System Functions: 
+• Detects new USB connections and verifies device identity. 
+• Monitors USB behavior for unusual patterns. 
+• Alerts users of suspicious activity. 
+• Blocks or quarantines malicious devices. 
+Platform: 
+Windows or Linux desktop environment using Python and PyUSB libraries.  
+IPB49804 FINAL YEAR PROJECT 1  
+4 
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+5. Significant of the Project 
+USBGuard Pro offers an innovative approach to endpoint security by focusing on real-time 
+behavior monitoring rather than traditional file scanning. This project will raise awareness 
+about physical device-based threats and provide a cost-effective, user-friendly solution to 
+prevent USB intrusion. It will also benefit small businesses, institutions, and individuals by 
+reducing data leakage and unauthorized access caused by infected USB devices. 
+6. Literature Review 
+USB-based attacks have been a consistent cybersecurity concern for over a 
+decade. According to Kaspersky (2023), USB malware infections increased by 17% 
+in 2022 compared to the previous year, emphasizing the growing threat of physical 
+attack vectors. Research by Wang and Stavrou (2010) demonstrated the feasibility 
+of BadUSB attacks, where firmware manipulation allows a USB device to 
+masquerade as a keyboard. Similarly, tools like USB Rubber Ducky have made 
+HID injection attacks accessible to the public. 
+Several defensive tools exist, such as USB Kill Switch and endpoint protection 
+software, but they are often complex or resource intensive. Therefore, a lightweight 
+solution focused on behavior detection rather than signature-based scanning is 
+crucial. This project draws inspiration from behavioral intrusion prevention models 
+and aims to implement a user-friendly and effective defense against USB attacks. 
+IPB49804 FINAL YEAR PROJECT 1  
+5 
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+7. Methodology 
+Development Model: 
+Waterfall Model 
+Phases: 
+1. Requirement Analysis – Identify USB attack patterns and required features. 
+2. System Design – Create architecture for monitoring, detection, and alerting 
+components. 
+3. Implementation – Develop the system using Python and PyUSB. 
+4. Testing – Evaluate accuracy, performance, and usability. 
+5. Deployment – Run real-world tests with multiple USB devices. 
+Hardware & Software Requirements: 
+• Hardware: Standard laptop (Intel i5+, 8GB RAM) 
+• OS: Windows/Linux 
+• Backend: Python with PyUSB library 
+• Database: SQLite (for logging) 
+• GUI: Tkinter or PyQt 
+• IDE: VS Code / PyCharm 
+Estimated Budget: 
+• Development and testing tools – RM100 
+• USB devices for testing – RM50 
+Total Estimated Cost: ~RM150 
+Conclusion 
+USBGuard Pro represents a new generation of lightweight cybersecurity tools designed to 
+protect systems from physical intrusion through USB devices. By focusing on behavioral 
+monitoring, the project aims to detect attacks that traditional antivirus systems cannot. The 
+outcome will contribute to safer computing environments and enhance awareness of physical
+layer cybersecurity threats. 
+IPB49804 FINAL YEAR PROJECT 1  
+6 
+FYP PROPOSAL 
+UNIVERSITI KUALA LUMPUR                                    
+References 
+1. Anderson, R. (2020). Security engineering: A guide to building dependable distributed 
+systems (3rd ed.). Wiley. 
+2. Kaspersky. (2023). USB threat statistics report 2023. Kaspersky Lab. 
+https://www.kaspersky.com 
+3. National Institute of Standards and Technology. (2022). Guide to malware incident 
+prevention and handling for desktops and laptops (NIST Special Publication 800-83r2). 
+U.S. Department of Commerce. 
+4. Symantec. (2024). Endpoint security trends report 2024. Broadcom Inc. 
+https://www.broadcom.com/company/newsroom 
+5. Wang, Z., & Stavrou, A. (2010). Exploiting smart-phone USB connectivity for fun and 
+profit. Proceedings of the 26th Annual Computer Security Applications Conference, 
+357–366. https://doi.org/10.1145/1920261.1920315 
+6. Would you like me to also make this into a poster summary version (for your FIP-1 
+presentation board)? It’ll include title, objectives, scope, diagram, and expected output 
+— concise and visual. 
+IPB49804 FINAL YEAR PROJECT 1  
+7 
