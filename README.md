@@ -192,15 +192,6 @@ time.sleep(2)  # Change this value (seconds)
 - Standard USB flash drives
 - Various keyboard/mouse devices
 
-## 📝 Project Details
-
-- **Student**: Kashvini S Mohan (52215223056)
-- **Program**: Bachelor of IT (Hons) in Computer System Security
-- **Institution**: Universiti Kuala Lumpur - MIIT
-- **Supervisor**: Dr Delina Beh Mei Yin
-- **Semester**: 7th Semester
-- **Course**: IPB49804 Final Year Project 1
-
 ## 🎯 Project Objectives
 
 1. ✅ Study USB-based attack methods and countermeasures
@@ -266,14 +257,7 @@ net start winmgmt
 1. Anderson, R. (2020). _Security Engineering_ (3rd ed.). Wiley.
 2. Kaspersky. (2023). USB threat statistics report 2023.
 3. NIST. (2022). Guide to malware incident prevention (SP 800-83r2).
-4. Wang, Z., & Stavrou, A. (2010). Exploiting smart-phone USB connectivity.
-
-## 📞 Support
-
-For questions or issues:
-
-- **Email**: kashvinismohan@gmail.com
-- **Phone**: +601114351594
+4. Wang, Z., & Stavrou, A. (2010). Exploiting smart-phone USB connectivity
 
 ## 📄 License
 
